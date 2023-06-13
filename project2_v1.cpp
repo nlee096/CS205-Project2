@@ -8,8 +8,8 @@
 #include <cmath>
 #include <limits>
 #include <chrono>
-#include <stdlib.h> // for rand
-#include <time.h>  // for seed
+// #include <stdlib.h> // for rand
+// #include <time.h>  // for seed
 
 using namespace std;
 using namespace std::chrono;
