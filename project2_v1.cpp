@@ -220,7 +220,7 @@ void forward_search(/*no input needed for now*/){
                     cout << ", ";
                 }
             }
-        cout << "} was best, accuracy is " << curr_best << "%" << endl;
+        cout << "} was best, accuracy is " << (curr_best*100) << "%" << endl;
         if(curr_best > best_acc){
             best_acc = curr_best;
             best_set = current_set;
@@ -326,7 +326,7 @@ void back_elim(/*no input needed for now*/){
                     cout << ", ";
                 }
             }
-        cout << "} was best, accuracy is " << curr_best << "%" << endl;
+        cout << "} was best, accuracy is " << (curr_best*100) << "%" << endl;
             
         if(curr_best >= best_acc){
             best_acc = curr_best;
