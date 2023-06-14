@@ -453,7 +453,7 @@ int main()
     // cout << "Done" << endl;
     // cout << num_instances << " instances" << endl;
     // cout << num_features << " features" << endl;
-    cout << "This dataset has " << num_features << " features (not including the class attribute), with " << num_instances << " instance." << endl;
+    cout << "This dataset has " << num_features << " features (not including the class attribute), with " << num_instances << " instances." << endl;
 
     cout << "Do you want to normalize? (0 = no, 1 = yes)" << endl;
     int norm;
