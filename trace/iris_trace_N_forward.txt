@@ -1,0 +1,48 @@
+Welcome to Nathan Lee's and Sahas Poyekar's Feature Selection Algorithm.
+Select which data set:
+1. Test small dataset 32
+2. Test small dataset 33
+3. Test large dataset 32
+4. Test large dataset 33
+5. CS170_small_Data__6.txt
+6. CS170_large_Data__4.txt
+7. CS170_XXXlarge_Data__10.txt
+8. Type in your own
+8
+input full file name
+output.txt
+This dataset has 4 features (not including the class attribute), with 150 instances.
+Do you want to normalize? (0 = no, 1 = yes)
+1
+Normalizing ... 
+Done
+Type the number of the algorithm you want to run.
+1 : Forward Selection
+2 : Backward Elimination
+1
+Running nearest neighbor with no features, using "Leave-one-out" evaluation, I get an accuracy of 33.3333%
+Beginning search
+
+Using feature(s) {1} accuracy is 58.6667%
+Using feature(s) {2} accuracy is 48%
+Using feature(s) {3} accuracy is 88%
+Using feature(s) {4} accuracy is 88%
+Feature set {3} was best, accuracy is 88%
+
+Using feature(s) {1, 3} accuracy is 91.3333%
+Using feature(s) {2, 3} accuracy is 88.6667%
+Using feature(s) {3, 4} accuracy is 96.6667%
+Feature set {3, 4} was best, accuracy is 96.6667%
+
+Using feature(s) {1, 3, 4} accuracy is 94.6667%
+Using feature(s) {2, 3, 4} accuracy is 93.3333%
+Feature set {1, 3, 4} was best, accuracy is 94.6667%
+(Warning, Accuracy has decreased from last set!)
+(Warning, accuracy is lower than the best set!)
+
+Using feature(s) {1, 2, 3, 4} accuracy is 94.6667%
+Feature set {1, 2, 3, 4} was best, accuracy is 94.6667%
+(Warning, accuracy is lower than the best set!)
+
+Finished search!! The best feature subset is {3, 4}, which has an accuracy of 96.6667%
+total time : 0.00261 seconds
