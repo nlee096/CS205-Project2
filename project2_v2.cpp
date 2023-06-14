@@ -393,6 +393,7 @@ int main()
         fileName = "CS170_XXXlarge_Data__10.txt";
     }
     else if(fileOption ==8){
+        cout << "input full file name" << endl;
         cin >> fileName;
     }
     // else if(fileOption ==8){
